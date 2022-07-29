@@ -1,0 +1,53 @@
+/* Global Definition */
+
+
+
+
+
+/* Color Variables and Fonts */
+
+
+:root{
+    
+
+        --title-primary: rgb(48, 32, 172);
+        --title-secondary: #333;
+        --title-tertiary : #777;
+        --button-primary-color: #fff;
+        --button-primary-color-dark: rgb(206, 203, 247);
+        --button-secondary-color: rgb(48, 32, 172);
+        --button-blue-dark: rgb(37, 25, 126);
+        --button-blue: rgb(46, 30, 167);
+        --button-blue: rgb(116, 15, 194);
+        --btn-box-shadow-dark: rgba(0,0,0,0.45);
+        --btn-box-shadow-light: rgba(0,0,0,0.15);
+        --box-shadow-light:  0 0 0.4rem rgba(0,0,0,0.1);
+        --box-shadow-dark:  0 0 0.6rem rgba(0,0,0,0.2);
+        --hr-color: rgb(216, 216, 216);
+
+        --btn-gradient: linear-gradient(to right ,rgb(46, 30, 167),rgb(116, 15, 194));
+
+        /* Button Margins */
+        --button-margin-top-bottom: 2rem;
+        --button-margin-left-right: 3rem;
+        /* Button Padding */
+        --button-padding-top-bottom: 1rem;
+        --button-padding-left-right: 2rem;
+    /* Text Margins */
+        --text-margin-top-bottom: 2rem;
+        --text-margin-left-right: 3rem;
+        /* Button Padding */
+        --text-padding-top-bottom: 1rem;
+        --text-padding-left-right: 2rem;
+
+
+    /* Defining Fonts */
+    --roboto: "Roboto";
+
+
+    
+
+    
+
+}
+

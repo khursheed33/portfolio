@@ -1,0 +1,139 @@
+html, body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    background-color: azure;
+}
+
+/* Buttons Section */
+ .btn{
+    padding: 0.5rem 2rem;
+    backface-visibility: hidden;
+    border-radius: 100px;
+    transition: background 0.5s ease;
+    box-shadow: 0rem 0.5rem 0.5rem var(--btn-box-shadow-light);
+ }
+ 
+.btn-blue{
+    color: whitesmoke;
+    background: var(--btn-gradient);
+    background-clip: padding-box;
+    
+}
+
+.btn-blue:hover,
+.btn-blue:active{
+    color: var(--button-blue);
+    background: white;
+    border: 0.15rem solid var(--button-blue);
+}
+
+
+ .btn-bordered{
+    color: var(--button-blue);
+    background: transparent;
+    border: 0.15rem solid var(--button-blue);
+}
+
+ .btn-bordered:hover,
+ .btn-bordered:active{
+     
+     border: transparent;
+    color: whitesmoke;
+    background: var(--btn-gradient);
+    background-clip: padding-box;
+}
+
+.btn-more{
+    color: whitesmoke;
+    background: var(--btn-gradient);
+    background-clip: padding-box;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+}
+
+.btn-more:hover,
+.btn-more:active{
+    color: var(--button-blue);
+    background: transparent;
+    border: 0.15rem solid var(--button-blue);
+}
+
+
+/* Text and Heading Section */
+ .title-primary{
+     text-transform: uppercase;
+     margin: 1rem 0rem;
+     letter-spacing: 0.15rem;
+     font-weight: bold;
+     background: var(--btn-gradient);
+     background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,.2);
+}
+.title-secondary{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--title-secondary);
+}
+.title-tertiary{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: var(--title-tertiary);
+    letter-spacing: 1.2px;
+}
+
+.title-text{
+    letter-spacing: 0.2rem;
+    font:normal bold 40px/72px var(--roboto);
+}
+
+p.para{
+    margin: 0 auto;
+    font-size: 0.95rem;
+    text-transform: capitalize;
+    max-width: 100%;
+}
+/* Padding and Margins */
+.margin-top-bottom{
+    margin: var(--button-margin-top-bottom) 0;
+}
+
+
+.box-padding-top-bottom{
+    padding: 4rem 0;
+}
+
+
+
+/* Images */
+img{
+    max-width: 100%;
+}
+
+.divider{
+    height: 2rem;
+    /* margin: 3rem 0rem !important; */
+}
+
+.inner-padding{
+    padding-top: 1.2rem;
+}
+
+.heading-underline{
+    height: 2px;
+    width: 90%;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,.2);
+    margin-bottom: 1rem;
+}
+
+
+.contaier{
+    text-align: center !important;
+}
+
+

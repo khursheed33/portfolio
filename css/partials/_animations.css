@@ -1,0 +1,127 @@
+.btn:hover,
+.btn:active{
+    backface-visibility: hidden;
+    animation: AnimButton 1s infinite ease-in-out;
+    box-shadow: 0.2rem 0.3rem 0.5rem var(--btn-box-shadow-dark);
+}
+
+@keyframes AnimButton{
+    0%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(1.5px);
+    }
+    100%{
+       
+        transform: translateX(-1.5px);
+    }
+}
+
+
+/* .brand-icon{
+    animation: AnimBrandIcon 2s infinite;
+    transition: 2s ease-in-out;
+}
+
+@keyframes AnimBrandIcon{
+    0%{
+        transform: translateY(-8px);
+        transform: translateX(-5px);
+    }
+    50%{
+        transform: translateX(-3px);
+        transform: translateY(-5px);
+    }
+    100%{
+       
+        transform: translateX(0px);
+        transform: translateX(0px);
+    }
+} */
+
+/* images */
+
+
+.about-section .about-img-1{
+    animation: AnimImage1 5s infinite;
+    backface-visibility: hidden;
+    animation-delay: 1000;
+}
+
+.about-section .about-img-1:hover{
+    animation: none;
+    backface-visibility: hidden;
+}
+@keyframes AnimImage1{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.about-section .about-img-2{
+    animation: AnimImage2 5s infinite;
+    backface-visibility: hidden;
+}
+
+.about-section .about-img-2:hover{
+    animation: none;
+    backface-visibility: hidden;
+}
+@keyframes AnimImage2{
+    0%{
+    transform: translateX(10px);    
+    }
+    50%{
+        transform: translateX(1.10px);
+
+    }
+    100%{
+    transform: translateX(10px);    
+    }
+}
+
+
+@keyframes AnimBrand{
+    /* 0%{
+        transform: scale(1);
+    } */
+    25%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.04);
+    }
+    75%{
+        transform: scale(1.03);
+    }
+    /* 100%{
+        transform: scale(1.05);
+    } */
+}
+
+
+.header-image:hover,
+.header-image:active,
+.header-image:focus{
+    animation: AnimHeaderImg 3s infinite;
+}
+
+@keyframes AnimHeaderImg{
+    0%{
+    transform: translateX(10px);    
+    }
+    50%{
+        transform: translateX(1.10px);
+
+    }
+    100%{
+    transform: translateX(10px);    
+    }
+}

@@ -1,0 +1,357 @@
+/* Importing Fonts.css to main Style CSS */
+@import url('./fonts.css');
+@import url('./partials/_variables.css');
+@import url('./partials/_global.css');
+@import url('./partials/_animations.css');
+
+
+
+/* body .header-section .navbar{
+   background:linear-gradient(to top right, rgba(12, 12, 193, 1),rgb(26, 26, 130),rgb(34, 34, 110)) !important;
+} */
+.navbar-brand .brand-icon{
+    width: 35px;
+    transition: 0.3s ease-in-out;
+}
+.navbar-brand .brand-icon:hover,
+.navbar-brand .brand-icon:active{
+    transform: scale(1.2);
+}
+
+.header-section .navbar{
+    background-color: azure !important;
+    box-shadow: var(--box-shadow-light);
+    padding: 0.5rem 6rem;
+    margin-bottom: 10rem !important;
+}
+.header-section .navbar:hover,
+.header-section .navbar:active{
+    box-shadow: var(--box-shadow-dark);
+}
+.header-section .nav-item .nav-link{
+    font-family: var(--roboto);
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1.2rem;
+    color: black !important;
+   
+}
+
+.header-section .nav-item .nav-link:hover{
+    color: rgb(89, 6, 191) !important;
+    font-weight: 700;
+}
+
+/* Hero Section */
+
+.main-hero{
+    margin-top: 7rem;
+    /* border: 1px solid red; */
+}
+
+.main-hero img{
+    max-width: 100%;
+}
+
+
+.main-hero .titile-underline{
+    letter-spacing: -0.2px;
+}
+
+.main-hero .hero-title{
+    margin-top: 6rem;
+    font-weight: bold;
+}
+
+.hero-title{
+    text-align: left;
+}
+
+/* Button Section */
+
+
+/* About section */
+.about-section{
+    /* border: 1px solid red; */
+    margin-bottom: 3rem;
+    padding: 2rem 0rem;
+}
+
+.aboutImage_2{
+    margin-top: 20px;
+    max-width: 70%;
+}
+
+
+
+/* Branding Section */
+
+.brand-container{
+    text-align: center;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 1rem;
+    margin-bottom: 6px;
+    position: relative;
+}
+
+.brand-item{
+    
+    padding: 2rem;
+    border: 1.5px solid rgba(0,0,0,0.09); 
+}
+.brand-image{
+    max-width: 100%;
+}
+.brand-item:hover,
+.brand-item:active{
+    border: 2px solid rgba(0,0,0,0.6); 
+}
+
+.brand-container:hover, 
+.brand-container:active {
+   
+    backface-visibility: hidden;
+    transition: 0.2s ease-in;
+    filter: blur(0px);
+    box-shadow: var(--box-shadow-dark);
+    z-index: 10;
+    animation: AnimBrand 0.5s ease-in-out;
+}
+
+.experience-container{
+    padding: 4.1rem;
+
+}
+.experience-area{
+    padding: 4rem 2rem;
+    background-color: antiquewhite;
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+}
+.dotted-border{
+    top: 3.9rem;
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    z-index: 2;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-style: dotted;
+    border-width: 10px 10px 10px 10px;
+}
+.experience-area h3{
+    margin: 0 auto;
+    display: inline-block;
+    z-index: 3;
+    text-align: left;
+}
+.call-area{
+   padding-top: 4rem;
+    font-size: 18px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.years{
+    font-size: 4rem;
+    padding: 0rem ;
+    margin-left: 4rem;
+}
+
+.call-now{
+        display: block;   
+}
+
+.call-icon{
+    font-size: 46px !important;
+    position: absolute;
+    top: 50%;
+    left: -50%;
+}
+
+.services{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+.service-content{
+    border-radius: 6px;
+    margin-top: 1rem;
+    padding: 2rem 0.7rem;
+    box-shadow: var(--box-shadow-light);
+}
+.service-content:hover{
+    box-shadow: var(--box-shadow-dark);
+}
+.services .contents{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.service-image{
+    max-width: 90%;
+}
+.service-image:hover,
+.service-content:hover .service-image{
+    transform: scale(1.1);
+}
+.card-title{
+    text-transform: uppercase;
+}
+
+
+/* Portfolio */
+.portfolio{
+    padding: 2rem 0rem;
+}
+.portfolio .buttons  button{
+    cursor: pointer;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    outline: none;
+    font: normal 500 16px/130px var(--roboto);
+    padding-left: 2rem;
+}
+
+.portfolio .buttons{
+    text-align: left !important;
+}
+.port-image a{
+    transition: 0.2s ease-in;
+}
+.port-image a:hover{
+    
+    filter: brightness(1.1) drop-shadow(0 0.2rem 0.3rem rgba(0,0,0,0.2));
+
+}
+
+.port-image img{
+    box-shadow: var(--box-shadow-light);
+    border-radius: 6px;
+}
+
+.port-title{
+    margin-top: 1rem;
+}
+
+.portfolio .active
+{
+    color: red;
+}
+
+/* About Section */
+.reviews{
+    padding: 2rem 0rem;
+}
+.reviews h3{
+    font-size: 1.5rem;
+}
+.reviews .client{
+
+    border-radius: 6px;
+    box-shadow: var(--box-shadow-light);
+     margin: 1rem;
+    padding: 0.5rem;
+    padding-right: 1rem;
+}
+
+.reviews .client-img img{
+    padding: 1rem;
+    border-radius: 50%;
+    filter: blur(2px);
+
+} 
+
+.reviews .owl-dots .owl-dot.active span{
+    background: blueviolet !important;
+}
+
+/* Subscription */
+
+.subscribe {
+    padding: 2rem 0rem;
+    
+}
+.sub-contents{
+    text-align: center !important;
+    padding: 1.2rem;
+}
+.subscribe .row-flex{
+    padding: 4rem;
+}
+
+
+/* Footer Section */
+
+.footer{
+    text-align: center;
+    position: relative;
+    
+}
+
+.social-container{
+   display: flex !important;
+   justify-content: center !important;
+}
+
+.social-container .social-item{
+    color: grey;
+    padding: 0.5rem;
+    transition: 0.2s ease-in;
+    transform: scale(1.3);
+}
+
+.social-container .social-item:hover,
+.social-container .social-item:active{
+    transform: scale(1.8);
+    cursor: pointer;
+    color: rgb(96, 0, 198);
+}
+
+.visit h2{
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 2px solid rgba(223, 182, 255, 0.1);
+}
+.visit .links a{
+    color: rgba(164, 164, 245, 0.5);
+    font-size: small !important;
+}
+
+.visit .links a:hover{
+    background: whitesmoke;
+     background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,.2);
+    transform: scale(1.2);
+    font-weight: bold;
+}
+.visit .links a:not(last-child){
+    margin-right: 1rem;
+    
+}
+
+.foot-content{
+    background: var(--btn-gradient);
+    padding: 3rem 1rem;
+    
+}
+
+.copyrights{
+    margin-top: 1rem;
+}
+.copyrights .para{
+    color: rgb(214, 181, 255);
+}
+
+.disclaimer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.disclaimer h2{
+    border-bottom: 2px solid rgba(223, 182, 255, 0.1);
+}
